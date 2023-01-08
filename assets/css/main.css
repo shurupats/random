@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.button{
+    font-size: 1.5em;
+    background: #3498db;
+    color: #fff;
+    border: 0.25rem solid #3498db;
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background: #40a0e0;
+    border: 0.25rem solid #40a0e0;
+    cursor: pointer;
+}
+
+.label{
+    font-size: 1.5em;
+    color: rgb(14, 1, 1);
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
